@@ -1,1 +1,12 @@
-This is a git repo
+Dependencies :
+OpenCV
+Numpy
+
+Small game to induce focus
+Used in research to put the user in an attentive state in a single focus point to take sensory data.
+
+Task is to count the number of screens with upright "T"s.
+Each color change indicates a screen change. 
+So it means, if the 'T' stays the same while background color changes, it counts as a new screen
+At the end, after the screen changing stops, use only the linear number pad at the top of any keyboard to enter the count
+The score will be displayed in the terminal
