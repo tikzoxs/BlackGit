@@ -1,3 +1,5 @@
+T-Counting
+
 Dependencies :
 Python 3
 OpenCV
@@ -11,3 +13,42 @@ Each color change indicates a screen change.
 So it means, if the 'T' stays the same while background color changes, it counts as a new screen
 At the end, after the screen changing stops, use only the linear number pad at the top of any keyboard to enter the count
 The score will be displayed in the terminal
+
+
+----------------------------------------------------------------------------------------------------------
+
+Stroop Test
+
+Dependencies :
+Python 3
+OpenCV
+Numpy
+Time
+
+Standard screen based game to induce stress
+Used in research
+
+Extract files from the stroop_data folder and put it into the same folder which has stroop.py
+
+Task is to identify the COLOR OF THE TEXT. Meaning of the text is irrelevant 
+
+If the Color of the text is RED, press ‘R’
+If the Color of the text is GREEN, press ‘G’
+If the Color of the text is BLUE, press ‘B’
+If the Color of the text is YELLOW, press ‘Y’
+
+Response time is measured from the moment the text is displayed to the moment you press the key
+
+You won’t be notified whether the answer is correct. Next text will be displayed after a second. 
+
+Mistakes have higher impact on the score than the response time
+
+There is no maximum attainable score limit. The faster you are without any mistakes, the more you get
+
+Average score is about 13
+
+Tip to play: 
+Place your middle finger of the left hand on ‘R’ key
+Place your index finger of the left hand on ‘G’ key
+Place your middle finger of the right hand on ‘Y’ key
+Place your index finger of the right hand on ‘B’ key
